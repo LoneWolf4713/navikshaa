@@ -2,7 +2,7 @@
 ## Deployed Link => https://gregarious-muffin-c5f205.netlify.app/
 
 ### ScreenShots => 
-Index Page -> 
+#### Index Page -> 
 ![Screenshot_19-5-2025_215329_localhost](https://github.com/user-attachments/assets/b969e51f-7994-4b04-9e9d-79e6066d3c33)
 
 #### Login Page -> 
@@ -12,7 +12,8 @@ Index Page ->
 ![Screenshot_19-5-2025_21541_localhost](https://github.com/user-attachments/assets/1a5d1dd3-7675-4633-b774-c7f72d3a2bf6)
 
 #### If Login Isn't Successful -> 
-![Screenshot_19-5-2025_21541_localhost](https://github.com/user-attachments/assets/f60fa653-d4e8-4fb1-b9da-a9a7ce89966a)
+![Screenshot_19-5-2025_222113_gregarious-muffin-c5f205 netlify app](https://github.com/user-attachments/assets/cb4b2587-b961-44ed-a3f7-0299addfc0c8)
+
 
 #### Slots Page -> 
 ![Screenshot_19-5-2025_215428_localhost](https://github.com/user-attachments/assets/ac4e6ad5-b1d6-4826-a68a-75e5b88e3c8e)
@@ -26,7 +27,7 @@ Index Page ->
 ![Screenshot_19-5-2025_215217_localhost](https://github.com/user-attachments/assets/faaa4d5c-26a6-4882-a695-28cec3679903)
 ![Screenshot_19-5-2025_215226_localhost](https://github.com/user-attachments/assets/023d589f-ebfd-4cd9-a412-0251410eb49d)
 
-###### There are other screens for error messages too, for example, failed authentication or user trying to delete some other user's appointment!
+##### There are other screens for error messages too, for example, failed authentication or user trying to delete some other user's appointment!
 
 
 
