@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedulo Lite</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a href="/" class="navbar-item title"> Schedulo Lite </a>
+      </div>
+    </nav>
+    <section class="section">
+      <h1 class="title is-1 has-text-centered m-3 p-3 has-text-primary">
+        Please Login / Signup To Continue
+      </h1>
+      <div class="field">
+        <label for="" class="label">User Name: </label>
+        <div class="control">
+          <input
+            type="text is-fullwidth"
+            class="input"
+            placeholder="User Name"
+            id="userNameInput"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="" class="label">Password: </label>
+        <div class="control">
+          <input
+            type="password"
+            class="input"
+            placeholder="Password"
+            id="passwdInput"
+          />
+        </div>
+      </div>
+      <p
+        class="is-hidden has-text-danger is-text-3 has-text-centered"
+        id="error"
+      >
+        User Name and Password Fields Cannot Be Empty
+      </p>
+      <hr />
+      <button
+        class="button is-success is-dark is-fullwidth my-3 p-3"
+        onclick="loginFunc()"
+      >
+        Login !
+      </button>
+    </section>
+
+    <div id="modalAuthFail" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-danger">
+          <div class="message-header">
+            <p class="is-size-4">Wrong Password !</p>
+          </div>
+          <div class="message-body is-size-5">
+            <p class="subtitle">
+              Authentication Failed ! Please Try Again, Your Password Was
+              Incorrect.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div id="modalAuthPass" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-success">
+          <div class="message-header">
+            <p class="is-size-4">Welcome To Schedulo!</p>
+          </div>
+          <div class="message-body is-size-5">
+            <p class="subtitle">
+              Authentication Successful. Redirecting To Slots Booking Page...
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

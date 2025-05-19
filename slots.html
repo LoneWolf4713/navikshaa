@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedulo Lite</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a href="/" class="navbar-item title"> Schedulo Lite </a>
+      </div>
+    </nav>
+    <div class="container hero is-fullheight is-flex is-align-items-center is-justify-content-center">
+      <div class="columns p-3 is-multiline" id="slotsContainer"></div>
+    </div>
+
+    <div id="modalBook" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-primary">
+          <div class="message-header">
+            <p class="is-size-4">Book Appointment?</p>
+          </div>
+          <div class="message-body is-size-5" id="bookConfirmBody">
+           
+        </article>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modalCancel" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-danger">
+          <div class="message-header">
+            <p class="is-size-4">Cancel Appointment?</p>
+          </div>
+          <div class="message-body is-size-5 has-text-danger" id="cancelConfirmBody">
+            
+          </div>
+        </article>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modalCancelFail" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-danger">
+          <div class="message-header">
+            <p class="is-size-4">Failed !</p>
+          </div>
+          <div class="message-body is-size-5 has-text-danger" id="cancelFailBody">
+            
+          </div>
+        </article>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modalCancelSuccess" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-success">
+          <div class="message-header">
+            <p class="is-size-4">Success !</p>
+          </div>
+          <div class="message-body is-size-5 has-text-success" >
+            Your Appointment Has Been Cancelled, Refreshing Page...
+          </div>
+        </article>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modalBookSuccess" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-success">
+          <div class="message-header">
+            <p class="is-size-4">Success !</p>
+          </div>
+          <div class="message-body is-size-5 has-text-success" >
+            Your Appointment Has Been Scheduled, Refreshing Page...
+          </div>
+        </article>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modalBookFail" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <article class="message is-danger">
+          <div class="message-header">
+            <p class="is-size-4">Success !</p>
+          </div>
+          <div class="message-body is-size-5 has-text-danger" >
+            Authentication Problem, Please Try Logging Again. Your Appointment Has NOT Been Scheduled.
+          </div>
+        </article>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    
+
+    <script src="index.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

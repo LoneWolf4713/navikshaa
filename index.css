@@ -1,0 +1,13 @@
+@font-face {
+font-family: 'ostrich';
+src: url('OstrichSans-Black.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+*{
+    font-family: ostrich;
+}
+.w-100{
+    min-width: 100% !important;
+}
