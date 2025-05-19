@@ -1,6 +1,14 @@
 # navikshaa
 ## Deployed Link => https://gregarious-muffin-c5f205.netlify.app/
 
+### Tech Stack Used -> 
+#### Python -> Flask REST API for backend, with strong authentication made possible with JSON Web Tokens.
+#### JavaScript -> For Frontend Manipulation and Fetch API Calls
+#### HTML, CSS, Bulma -> For UI / UX
+
+### Flow -> 
+#### The Workflow is simple, User Comes at index.html -> goes to login / signup page -> makes an account (at this stage, username and his details are stored in cookies, so no need to enter username again while booking a slot) -> slot booking / cancelling page.
+
 ### ScreenShots => 
 #### Index Page -> 
 ![Screenshot_19-5-2025_215329_localhost](https://github.com/user-attachments/assets/b969e51f-7994-4b04-9e9d-79e6066d3c33)
